@@ -57,7 +57,7 @@ namespace StudentManagementSystem
                         break;
 
                     case "5":
-                        Console.WriteLine("\n❌ Exit");
+                        Console.WriteLine("\n Exit");
                         Console.WriteLine("Exiting program...");
                         Console.WriteLine("Goodbye!");
                         running = false;
@@ -72,7 +72,7 @@ namespace StudentManagementSystem
 
         static void AddStudent()
         {
-            Console.WriteLine("\n➕ Add Student Flow");
+            Console.WriteLine("\n Add Student Flow");
 
             Console.Write("Enter student name: ");
             string name = Console.ReadLine();
@@ -99,7 +99,7 @@ namespace StudentManagementSystem
 
         static void ViewStudents()
         {
-            Console.WriteLine("\n📋 View Students");
+            Console.WriteLine("\n View Students");
 
             if (students.Count == 0)
             {
@@ -118,7 +118,7 @@ namespace StudentManagementSystem
 
         static void ComputeClassAverage()
         {
-            Console.WriteLine("\n📊 Class Average");
+            Console.WriteLine("\n Class Average");
             Console.WriteLine("===== CLASS AVERAGE =====");
 
             if (students.Count == 0)
@@ -134,7 +134,7 @@ namespace StudentManagementSystem
 
         static void FindHighestGrade()
         {
-            Console.WriteLine("\n🏆 Highest Grade");
+            Console.WriteLine("\n Highest Grade");
             Console.WriteLine("===== HIGHEST GRADE =====");
 
             if (students.Count == 0)
